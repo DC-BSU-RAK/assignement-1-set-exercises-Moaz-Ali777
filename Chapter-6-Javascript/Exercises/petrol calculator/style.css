@@ -1,0 +1,76 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the calculator */
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* Header */
+.container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Input styling */
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Focus effect on input fields */
+input[type="number"]:focus {
+    border-color: #0078D7;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0078D7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Result display */
+#totalCost {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #222;
+}
+

@@ -1,0 +1,92 @@
+/* Fonts and resets */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+header {
+    background-color: #17072b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+/* Main Layout */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Welcome Section */
+.welcome {
+    width: 65%;
+}
+
+.welcome h2 {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+}
+
+.welcome img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+/* Line Up (aside) */
+.lineup {
+    width: 30%;
+    background-color: #172d67;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.lineup h2 {
+    font-family: Arial, sans-serif;
+}
+
+.lineup ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lineup-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.lineup-images img {
+    width: 48%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: #8c15e9;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
