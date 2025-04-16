@@ -1,0 +1,77 @@
+/* ===== Base Styles ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffdf6;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* ===== Headings ===== */
+h1, h2 {
+    color: #2b2b2b;
+    border-bottom: 2px solid #f0a500;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+/* ===== Paragraphs ===== */
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* ===== Lists ===== */
+ul, ol {
+    margin: 20px 0;
+    padding-left: 40px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.05em;
+}
+
+/* ===== Emphasis ===== */
+strong {
+    color: #e07a5f;
+}
+
+em {
+    font-style: italic;
+}
+
+/* ===== Recipe Styling Enhancements ===== */
+ul li::marker, ol li::marker {
+    color: #f0a500;
+}
+
+/* ===== Code Block (if included) ===== */
+code {
+    background-color: #f4f4f4;
+    padding: 2px 6px;
+    font-family: monospace;
+    border-radius: 4px;
+}
+
+/* ===== Links (optional) ===== */
+a {
+    color: #f0a500;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
