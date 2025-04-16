@@ -1,0 +1,51 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Video wrapper styling */
+  .video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Video element styling */
+  video {
+    max-width: 100%;
+    max-height: 90vh;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: #000;
+  }
+  
+  /* Optional: Add some styling for when video is being loaded */
+  video[poster] {
+    object-fit: cover;
+  }
+  
+  /* Optional: Add some responsive adjustments */
+  @media (max-width: 768px) {
+    .video-wrapper {
+      padding: 10px;
+    }
+    
+    video {
+      max-height: 80vh;
+    }
+  }
+  
+  /* Optional: Add a title or caption style if you add one later */
+  .title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
